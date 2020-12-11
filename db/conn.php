@@ -1,8 +1,16 @@
 <?php
-    $host = '127.0.0.1';
-    $db = 'inventorymanagement_db';
-    $user = 'root';
-    $pass = '';
+    // Development Connection
+    // $host = '127.0.0.1';
+    // $db = 'inventorymanagement_db';
+    // $user = 'root';
+    // $pass = '';
+    // $charset = 'utf8mb4';
+
+    //Remote Database Connection
+    $host = 'remotemysql.com';
+    $db = 'SueMQsS6YV';
+    $user = 'SueMQsS6YV';
+    $pass = 'xarCQP97pl';
     $charset = 'utf8mb4';
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
